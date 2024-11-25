@@ -1,0 +1,19 @@
+[
+  {
+    "name": "HomeWhereYouBelong",
+    "description": "Move Home Button Back to Left Side on Spotify v1.2.46+.",
+    "preview": "Icon.png",
+    "main": "HomeWhereYouBelong.js",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "yodaluca23",
+            "url": "https://github.com/yodaluca23"
+        }
+    ],
+    "tags": [
+        "interface",
+        "QOL"
+    ]
+  }
+]
