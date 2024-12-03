@@ -5,15 +5,15 @@
 (function HomeWhereYouBelong() {
     function waitForElements() {
         const homeButton = document.querySelector('button[aria-label="Home"]');
-        const containerDiv = document.querySelector('div.custom-navlinks-scrollable_container');
+        const goForwardButton = document.querySelector('button[aria-label="Go forward"]');
 
-        if (homeButton && containerDiv) {
-            containerDiv.prepend(homeButton);
-            containerDiv.style.display = 'flex';
-            containerDiv.style.alignItems = 'center';
+        if (homeButton && goForwardButton) {
+            goForwardButton.parentNode.insertBefore(homeButton, goForwardButton.nextSibling);
+
             console.log("[HomeWhereYouBelong] Home button successfully moved.");
             observer.disconnect();
         }
+
     }
 
     const observer = new MutationObserver(waitForElements);
