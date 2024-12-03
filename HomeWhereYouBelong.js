@@ -10,7 +10,7 @@
         if (homeButton && goForwardButton) {
             goForwardButton.parentNode.insertBefore(homeButton, goForwardButton.nextSibling);
 
-            console.log("[HomeWhereYouBelong] Home button successfully moved.");
+            console.log("[HomeWhereYouBelong v1.2] Home button successfully moved.");
             observer.disconnect();
         }
 
