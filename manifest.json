@@ -2,9 +2,9 @@
   {
     "name": "HomeWhereYouBelong",
     "description": "Move Home Button next to navigation on Spotify v1.2.46+.",
-    "preview": "Icon.png",
-    "main": "HomeWhereYouBelong.js",
-    "readme": "README.md",
+    "preview": "HomeWhereYouBelong/Icon.png",
+    "main": "HomeWhereYouBelong/HomeWhereYouBelong.js",
+    "readme": "HomeWhereYouBelong/README.md",
     "authors": [
         {
             "name": "yodaluca23",
