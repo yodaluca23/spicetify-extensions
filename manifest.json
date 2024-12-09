@@ -12,7 +12,23 @@
         }
     ],
     "tags": [
-        "interface",
+        "Interface",
+        "QOL"
+    ]
+  },
+  {
+    "name": "SpicyTracker",
+    "description": "Remove tracking parameter \"?si=\" from Spotify share links.",
+    "preview": "SpicyTracker/Icon.png",
+    "main": "SpicyTracker/SpicyTracker.js",
+    "readme": "SpicyTracker/README.md",
+    "authors": [
+        {
+            "name": "yodaluca23",
+            "url": "https://github.com/yodaluca23"
+        }
+    ],
+    "tags": [
         "QOL"
     ]
   }
