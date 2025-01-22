@@ -18,7 +18,7 @@
   },
   {
     "name": "SpicyTracker",
-    "description": "Remove tracking parameter \"?si=\" from Spotify share links.",
+    "description": "Remove tracking parameters such as \"?si=\" from Spotify share links.",
     "preview": "SpicyTracker/Icon.png",
     "main": "SpicyTracker/SpicyTracker.js",
     "readme": "SpicyTracker/README.md",

@@ -1,2 +1,2 @@
 # SpicyTracker
-Spicetify Extension to remove tracking parameter "?si=" from Spotify share links.
+Spicetify Extension to remove tracking parameters such as "?si=" from Spotify share links.
