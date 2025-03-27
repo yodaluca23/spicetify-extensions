@@ -7,10 +7,10 @@
         const homeButton = document.querySelector('button[aria-label="Home"]');
         const goForwardButton = document.querySelector('button[aria-label="Go forward"]');
 
-        if (homeButton && goForwardButton) {
-            goForwardButton.parentNode.insertBefore(homeButton, goForwardButton.nextSibling);
+        if (homeButton && goForwardButton && goForwardButton.parentNode.nextSibling) {
+            goForwardButton.parentNode.parentNode.insertBefore(homeButton, goForwardButton.parentNode.nextSibling);
 
-            console.log("[HomeWhereYouBelong v1.3] Home button successfully moved.");
+            console.log("[HomeWhereYouBelong v1.4] Home button successfully moved.");
             observer.disconnect();
         }
 
